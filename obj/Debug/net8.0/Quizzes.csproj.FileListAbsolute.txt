@@ -1,0 +1,15 @@
+C:\Users\rus_d\OneDrive\Desktop\Coding\Laptop\CSharp\Quizzes\bin\Debug\net8.0\Quizzes.exe
+C:\Users\rus_d\OneDrive\Desktop\Coding\Laptop\CSharp\Quizzes\bin\Debug\net8.0\Quizzes.deps.json
+C:\Users\rus_d\OneDrive\Desktop\Coding\Laptop\CSharp\Quizzes\bin\Debug\net8.0\Quizzes.runtimeconfig.json
+C:\Users\rus_d\OneDrive\Desktop\Coding\Laptop\CSharp\Quizzes\bin\Debug\net8.0\Quizzes.dll
+C:\Users\rus_d\OneDrive\Desktop\Coding\Laptop\CSharp\Quizzes\bin\Debug\net8.0\Quizzes.pdb
+C:\Users\rus_d\OneDrive\Desktop\Coding\Laptop\CSharp\Quizzes\obj\Debug\net8.0\Quizzes.csproj.AssemblyReference.cache
+C:\Users\rus_d\OneDrive\Desktop\Coding\Laptop\CSharp\Quizzes\obj\Debug\net8.0\Quizzes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rus_d\OneDrive\Desktop\Coding\Laptop\CSharp\Quizzes\obj\Debug\net8.0\Quizzes.AssemblyInfoInputs.cache
+C:\Users\rus_d\OneDrive\Desktop\Coding\Laptop\CSharp\Quizzes\obj\Debug\net8.0\Quizzes.AssemblyInfo.cs
+C:\Users\rus_d\OneDrive\Desktop\Coding\Laptop\CSharp\Quizzes\obj\Debug\net8.0\Quizzes.csproj.CoreCompileInputs.cache
+C:\Users\rus_d\OneDrive\Desktop\Coding\Laptop\CSharp\Quizzes\obj\Debug\net8.0\Quizzes.dll
+C:\Users\rus_d\OneDrive\Desktop\Coding\Laptop\CSharp\Quizzes\obj\Debug\net8.0\refint\Quizzes.dll
+C:\Users\rus_d\OneDrive\Desktop\Coding\Laptop\CSharp\Quizzes\obj\Debug\net8.0\Quizzes.pdb
+C:\Users\rus_d\OneDrive\Desktop\Coding\Laptop\CSharp\Quizzes\obj\Debug\net8.0\Quizzes.genruntimeconfig.cache
+C:\Users\rus_d\OneDrive\Desktop\Coding\Laptop\CSharp\Quizzes\obj\Debug\net8.0\ref\Quizzes.dll
