@@ -1,0 +1,90 @@
+// Q1: How to write a "Hello, World!" program?
+// A1:
+Console.WriteLine("Hello, World!");
+
+// Q2: How to declare and initialize an integer variable?
+// A2:
+int myNumber = 5;
+
+// Q3: How to perform a basic conditional check using an if statement?
+// A3:
+if (myNumber > 10) { Console.WriteLine("Number is greater than 10."); }
+
+// Q4: What is the correct way to define a method that adds two numbers?
+// A4:
+public int AddNumbers(int a, int b) { return a + b; }
+
+// Q5: How can you loop through an array of integers using a foreach loop?
+// A5:
+int[] numbers = {1, 2, 3, 4, 5};
+foreach(int number in numbers) { Console.WriteLine(number); }
+
+// Q6: How can you define a class with a property named Age?
+// A6:
+public class Person { public int Age { get; set; } }
+
+// Q7: How do you create an object of the class Person?
+// A7:
+Person person = new Person();
+
+// Q8: How do you handle exceptions using try-catch?
+// A8:
+try { /* Code that might throw an exception */ } catch (Exception e) { Console.WriteLine(e.Message); }
+
+// Q9: How do you read a line of input from the console?
+// A9:
+string input = Console.ReadLine();
+
+// Q10: How can you define an enumeration?
+// A10:
+enum Days { Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday };
+
+// Q11: How can you concatenate strings?
+// A11:
+string firstName = "John";
+string lastName = "Doe";
+string fullName = firstName + " " + lastName;
+
+// Q12: What is a correct way to define a constant variable?
+// A12:
+const int myConstant = 42;
+
+// Q13: How do you write a switch statement?
+// A13:
+switch (dayOfWeek) {
+    case Days.Monday: Console.WriteLine("It's Monday!"); break;
+    default: Console.WriteLine("Invalid day!"); break;
+}
+
+// Q14: How do you declare and use a delegate?
+// A14:
+public delegate void MyDelegate(string message);
+public void ShowMessage(string message) { Console.WriteLine(message); }
+MyDelegate myDelegate = ShowMessage;
+myDelegate("Hello, Delegate!");
+
+// Q15: How do you define and call a lambda expression?
+// A15:
+Func<int, int, int> add = (x, y) => x + y;
+int sum = add(3, 4);
+
+// Q16: How can you instantiate a list of integers?
+// A16:
+List<int> numbers = new List<int> {1, 2, 3, 4, 5};
+
+// Q17: How do you convert a string to an integer?
+// A17:
+int number = int.Parse("42");
+
+// Q18: How do you define a structure?
+// A18:
+struct Point { public int X; public int Y; }
+
+// Q19: How can you define and start a new thread?
+// A19:
+Thread myThread = new Thread(() => { Console.WriteLine("Hello, Thread!"); });
+myThread.Start();
+
+// Q20: How to define an interface?
+// A20:
+public interface IAnimal { void Speak(); }

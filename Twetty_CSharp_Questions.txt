@@ -1,0 +1,20 @@
+// Q1: How to write a "Hello, World!" program?
+// Q2: How to declare and initialize an integer variable?
+// Q3: How to perform a basic conditional check using an if statement?
+// Q4: What is the correct way to define a method that adds two numbers?
+// Q5: How can you loop through an array of integers using a foreach loop?
+// Q6: How can you define a class with a property named Age?
+// Q7: How do you create an object of the class Person?
+// Q8: How do you handle exceptions using try-catch?
+// Q9: How do you read a line of input from the console?
+// Q10: How can you define an enumeration?
+// Q11: How can you concatenate strings?
+// Q12: What is a correct way to define a constant variable?
+// Q13: How do you write a switch statement?
+// Q14: How do you declare and use a delegate?
+// Q15: How do you define and call a lambda expression?
+// Q16: How can you instantiate a list of integers?
+// Q17: How do you convert a string to an integer?
+// Q18: How do you define a structure?
+// Q19: How can you define and start a new thread?
+// Q20: How to define an interface?

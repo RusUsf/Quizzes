@@ -1,0 +1,6 @@
+﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, World!");
+Console.WriteLine("Welcome to C# Fundamentals!"); 
+Console.WriteLine("Enter your name: "); 
+string name = "";
+name = Console.ReadLine(); 

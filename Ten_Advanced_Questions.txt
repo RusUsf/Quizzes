@@ -1,0 +1,10 @@
+// Q31: How to declare and use a nullable value type?
+// Q32: How to implement the Singleton pattern in C#?
+// Q33: How to use the 'yield' keyword to create an iterator?
+// Q34: How to implement a generic method?
+// Q35: How to perform a deep copy of an object?
+// Q36: How to check if a string contains another string?
+// Q37: How to use the 'async' and 'await' keywords for asynchronous programming?
+// Q38: How to implement event handling in C#?
+// Q39: How to use the 'ref' keyword to pass a parameter by reference?
+// Q40: How to declare and use an anonymous type?

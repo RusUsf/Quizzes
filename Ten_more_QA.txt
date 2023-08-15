@@ -1,0 +1,85 @@
+// Q21: How to use LINQ to query a collection of integers?
+// A21:
+var numbers = new List<int> { 1, 2, 3, 4, 5 };
+var evenNumbers = numbers.Where(n => n % 2 == 0);
+
+// Q22: How to asynchronously read a text file?
+// A22:
+using (StreamReader reader = new StreamReader("file.txt"))
+{
+    string content = await reader.ReadToEndAsync();
+}
+
+// Q23: How to create a property with a private setter?
+// A23:
+public class MyClass
+{
+    public int MyProperty { get; private set; }
+}
+
+// Q24: How to handle different exceptions using multiple catch blocks?
+// A24:
+try
+{
+    // Code that might throw an exception
+}
+catch (FileNotFoundException e)
+{
+    Console.WriteLine("File not found!");
+}
+catch (Exception e)
+{
+    Console.WriteLine("General exception!");
+}
+
+// Q25: How to use string interpolation?
+// A25:
+string name = "John";
+string greeting = $"Hello, {name}!";
+
+// Q26: How to use the 'using' statement for automatic resource management?
+// A26:
+using (StreamWriter writer = new StreamWriter("file.txt"))
+{
+    writer.WriteLine("Hello, File!");
+}
+
+// Q27: How to use extension methods?
+// A27:
+public static class StringExtensions
+{
+    public static string ToLowerCase(this string input)
+    {
+        return input.ToLower();
+    }
+}
+string myString = "Hello";
+myString = myString.ToLowerCase();
+
+// Q28: How to use indexers in a class?
+// A28:
+public class MyCollection
+{
+    private int[] data = new int[10];
+    public int this[int index]
+    {
+        get { return data[index]; }
+        set { data[index] = value; }
+    }
+}
+
+// Q29: How to use named and optional parameters in a method?
+// A29:
+public void MyMethod(int required, int optional = 42, string name = "Default")
+{
+    // Implementation here
+}
+MyMethod(1, name: "Custom");
+
+// Q30: How to use attributes in C#?
+// A30:
+[Obsolete("This method is obsolete, use NewMethod instead.")]
+public void OldMethod()
+{
+    // Implementation here
+}

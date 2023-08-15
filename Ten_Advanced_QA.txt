@@ -1,0 +1,77 @@
+// Q31: How to declare and use a nullable value type?
+// A31:
+int? nullableInt = null;
+
+// Q32: How to implement the Singleton pattern in C#?
+// A32:
+public class Singleton
+{
+    private static Singleton instance;
+    private Singleton() { }
+    public static Singleton Instance
+    {
+        get
+        {
+            if (instance == null) instance = new Singleton();
+            return instance;
+        }
+    }
+}
+
+// Q33: How to use the 'yield' keyword to create an iterator?
+// A33:
+public IEnumerable<int> GetNumbers()
+{
+    for (int i = 0; i < 5; i++) yield return i;
+}
+
+// Q34: How to implement a generic method?
+// A34:
+public T Add<T>(T a, T b) where T : struct { return a + b; }
+
+// Q35: How to perform a deep copy of an object?
+// A35:
+public class MyClass
+{
+    public object Clone()
+    {
+        return this.MemberwiseClone();
+    }
+}
+
+// Q36: How to check if a string contains another string?
+// A36:
+string mainString = "Hello, World!";
+bool contains = mainString.Contains("World");
+
+// Q37: How to use the 'async' and 'await' keywords for asynchronous programming?
+// A37:
+public async Task MyMethodAsync()
+{
+    await Task.Delay(1000);
+    Console.WriteLine("Done!");
+}
+
+// Q38: How to implement event handling in C#?
+// A38:
+public class MyEvent
+{
+    public event EventHandler MyEventHandler;
+    public void RaiseEvent()
+    {
+        MyEventHandler?.Invoke(this, EventArgs.Empty);
+    }
+}
+
+// Q39: How to use the 'ref' keyword to pass a parameter by reference?
+// A39:
+public void ModifyNumber(ref int number)
+{
+    number = 10;
+}
+int myNumber = 5;
+ModifyNumber(ref myNumber);
+
+// Q40: How to declare and use an anonymous type?
+// A40:
+var person = new { FirstName = "John", LastName = "Doe" };

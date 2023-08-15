@@ -1,0 +1,10 @@
+// Q21: How to use LINQ to query a collection of integers?
+// Q22: How to asynchronously read a text file?
+// Q23: How to create a property with a private setter?
+// Q24: How to handle different exceptions using multiple catch blocks?
+// Q25: How to use string interpolation?
+// Q26: How to use the 'using' statement for automatic resource management?
+// Q27: How to use extension methods?
+// Q28: How to use indexers in a class?
+// Q29: How to use named and optional parameters in a method?
+// Q30: How to use attributes in C#?
