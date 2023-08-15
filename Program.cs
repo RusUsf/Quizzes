@@ -30,12 +30,64 @@ person.GetInfo("Rus", 37);
 // Q8: How do you handle exceptions using try-catch?
 try
 {
-    if (numbers.Contains(1) != true) ;
+    if (numbers[10] == 10) ;
     Console.WriteLine("Your code is running good!");
 }
 catch (Exception)
 {
     Console.WriteLine("You've got an exception!");
 }
+
+
+// Q9: How do you read a line of input from the console?
+string input = Console.ReadLine();
+Console.WriteLine(input);
+
+// Q10: How can you define an enumeration?
+
+var myDay = Days.Monday;
+Console.WriteLine(myDay);
+
+
+// Q11: How can you concatenate strings?
+string myFirstName = "Ruslan";
+string myLastName = "Dubas";
+string fullName = myFirstName + " " + myLastName;
+Console.WriteLine(fullName);
+
+// Q12: What is a correct way to define a constant variable?
+const int myConstant = 37;
+Console.WriteLine($"The value of myConstant is {myConstant}.");
+
+// Q13: How do you write a switch statement?
+
+var dayOfWeek = Days.Wednesday;
+
+switch (dayOfWeek)
+{
+    case Days.Monday:
+        Console.WriteLine("It's Monday!");
+        break;
+    case Days.Tuesday:
+        Console.WriteLine("It's Tuesday!");
+        break;
+    case Days.Wednesday:
+        Console.WriteLine("It's Wednesday!");
+        break;
+    case Days.Thursday:
+        Console.WriteLine("It's Thursday!");
+        break;
+    case Days.Friday:
+        Console.WriteLine("It's Friday!");
+        break;
+    default:
+        Console.WriteLine("Invalid day!");
+        break;
+}
+
+
+
+
+
 
 
