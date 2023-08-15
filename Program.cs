@@ -1,4 +1,5 @@
 ﻿
+
 // Q1: How to write a "Hello, World" program?
 Console.WriteLine("Hello, World!");
 
@@ -49,6 +50,7 @@ var myDay = Days.Monday;
 Console.WriteLine(myDay);
 
 
+
 // Q11: How can you concatenate strings?
 string myFirstName = "Ruslan";
 string myLastName = "Dubas";
@@ -86,7 +88,20 @@ switch (dayOfWeek)
 }
 
 
+// Q15: How do you define and call lambda expression?
+Func<int, int, int> add = (x, y) => x + y;
+int sum = add(3, 4);
+Console.WriteLine(sum);
 
+// Q14: How do you declare and use delegate?
+MyDelegate myDelegate = ShowMessage;
+myDelegate("Hello, Delegate!");
+
+// Q16: How can you instantiate the list of integers?
+List<int> myNumbers = new List<int> { 1, 2, 3, 4, 5, 6 };
+foreach (int number in myNumbers) Console.Write(number+", ");
+void ShowMessage(string message) { Console.WriteLine(message); }
+public delegate void MyDelegate(string message);
 
 
 
