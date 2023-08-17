@@ -26,3 +26,12 @@ public class Person
 }
 
 
+public class Bird : IFlyable
+{
+    public void Fly()
+    {
+        Console.WriteLine("The bird is flying.");
+    }
+
+    public int MaximumHeight => 1000;
+}

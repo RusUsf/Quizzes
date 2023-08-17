@@ -88,21 +88,46 @@ switch (dayOfWeek)
 }
 
 
+
+
 // Q15: How do you define and call lambda expression?
 Func<int, int, int> add = (x, y) => x + y;
 int sum = add(3, 4);
 Console.WriteLine(sum);
 
 // Q14: How do you declare and use delegate?
-MyDelegate myDelegate = ShowMessage;
-myDelegate("Hello, Delegate!");
+//MyDelegate myDelegate = ShowMessage;
+//myDelegate("Hello, Delegate!");
+
+// Q17: How do you convert string to an integer?
+int myNumberOne = int.Parse("42");
+Console.WriteLine(myNumberOne);
+
 
 // Q16: How can you instantiate the list of integers?
-List<int> myNumbers = new List<int> { 1, 2, 3, 4, 5, 6 };
-foreach (int number in myNumbers) Console.Write(number+", ");
-void ShowMessage(string message) { Console.WriteLine(message); }
-public delegate void MyDelegate(string message);
+//List<int> myNumbers = new List<int> { 1, 2, 3, 4, 5, 6 };
+//foreach (int number in myNumbers) Console.Write(number + ", ");
+//void ShowMessage(string message) { Console.WriteLine(message); }
+//public delegate void MyDelegate(string message);
 
+// Q18: How do you define a structure?
+
+Point p = new Point(3, 6);
+
+p.Display();
+
+// Q19: How can you define and start a new thread?
+Thread myThread = new Thread(() => { Console.WriteLine("Hello, Thread!"); });
+myThread.Start();
+
+// Q20: How to define an interface?
+
+Bird myBird = new Bird();
+
+myBird.Fly();
+var birdHeight = myBird.MaximumHeight;
+
+Console.WriteLine(myBird.MaximumHeight + 100);
 
 
 
