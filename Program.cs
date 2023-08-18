@@ -131,3 +131,66 @@ Console.WriteLine(myBird.MaximumHeight + 100);
 
 
 
+// Q21: How to use LINQ to query a collection of integers?
+var myNumbersList = new List<int> { 1, 2, 3, 4, 5 };
+var evenNumber = myNumbersList.Where(n => n % 2 == 0);
+foreach (var item in evenNumber)
+{
+    Console.Write(item+",");
+}
+
+// Q22: How to asynchronously read a text file?
+using (StreamReader reader = new StreamReader("Twenty_CSharp_Questions.txt"))
+{
+    string content = await reader.ReadToEndAsync();
+    Console.WriteLine(content);
+}
+
+// Q23: How to create a property with a private setter?
+
+
+// Q24: How to handle different exceptions using multiple catch blocks?
+int[] myArray = { 1, 2, 3, 4, 5 };
+
+try
+{
+    Console.WriteLine(myArray[10]);
+}
+catch(FileNotFoundException e)
+{
+    Console.WriteLine("File not found!");
+}
+catch(IndexOutOfRangeException e)
+{
+    Console.WriteLine("There are only five days in the WorkDays!");
+}
+finally
+{
+    Console.WriteLine("You are doing great learning C Sharp! Keep it up!");
+}
+
+// Q25: How to use string interpolation?
+string city = "Sarasota";
+string greeting = $"Welcome to {city}!";
+Console.WriteLine(greeting);
+
+// Q26: How to use the 'using' statement for automatic resource management?
+using (StreamWriter writer = new StreamWriter("TestTextFile.txt"))
+{
+    writer.WriteLine($"Hello, {myFirstName}, you're doing great learning C Sharp! Keep it up!");
+}
+
+using (StreamReader reader = new StreamReader("TestTextFile.txt"))
+{
+    string content = await reader.ReadToEndAsync();
+    Console.WriteLine(content);
+}
+
+// Q27: How to use extension methods?
+
+var myVariable = "Do not expect immediate results!";
+var myVarLowerCase = myVariable.ToLowerCase();
+Console.WriteLine(myVarLowerCase);
+
+
+

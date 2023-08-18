@@ -35,3 +35,16 @@ public class Bird : IFlyable
 
     public int MaximumHeight => 1000;
 }
+
+public class MyClass
+{
+    public int MyProperty { get; private set; }
+}
+
+public static class StringExtensions
+{
+    public static string ToLowerCase(this string input)
+    {
+        return input.ToLower();
+    }
+}
