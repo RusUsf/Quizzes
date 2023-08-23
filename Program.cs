@@ -268,3 +268,59 @@ using System.Security.Cryptography;
 //var input = "100";
 //if (int.TryParse(input, out int result)) Console.WriteLine(result);
 //else Console.WriteLine("Could not parse input!");
+
+//global::System.Console.WriteLine("Great work for studying C#! Well done! Keep it up!");
+
+// Quiz 7
+
+//Predicate<int> GetBool = delegate (int val)
+//{
+//    if (val <= 0) return false;
+//    else return true;
+//};
+//Console.WriteLine(GetBool(-1));
+
+
+
+//Processor<int> p = new Processor<int>();
+//p.BaseValue = 1;
+//int result = p.Add(10);
+//Console.WriteLine(result);
+
+//class Processor<T>
+//{
+//    public int Add(int value)
+//    {
+//        return this.BaseValue + value;
+//    }
+
+//    public int BaseValue { get; set; }
+//}
+
+
+
+
+//Processor<int> p1 = new DataProcessor<int>();
+//p1.Process(100);
+
+//DataProcessor<string> p2 = new DataProcessor<string>();
+//p2.Process("TEST");
+
+//class Processor<T>
+//{
+//    public void Process(T value)
+//    {
+//        Console.WriteLine(value.GetType().Name+"");
+//    }
+//}
+
+//class DataProcessor<U> : Processor<U> { }
+
+
+
+
+
+
+
+
+
