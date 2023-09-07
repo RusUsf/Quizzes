@@ -319,6 +319,20 @@ using System.Security.Cryptography;
 
 
 
+Console.WriteLine("Coding Pro-Tip: Read, Do, Read, Do, Read, Do! ");
+
+
+
+Animal animal = new Animal();
+Animal animal2 = new Animal("Monkey");
+Animal animal3 = new Animal("MonkeyThree", 7);
+
+Console.WriteLine($" Animal one: name {animal.Name}, age: {animal.Age}");
+Console.WriteLine($"Animal two: name {animal2.Name}, age: {animal2.Age}");
+Console.WriteLine($"Animal three: name {animal3.Name}, age: {animal3.Age}");
+
+
+
 
 
 

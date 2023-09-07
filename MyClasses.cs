@@ -48,3 +48,19 @@ public static class StringExtensions
         return input.ToLower();
     }
 }
+
+
+// Constructor chaining
+public class Animal
+{
+    public string? Name { get; set; }
+    public int? Age { get; set; }
+    
+    public Animal() : this("Unknown",0) { }
+    public Animal(string? name) : this(name, 0) { }
+    public Animal(string? name, int? age)
+    {
+        Name = name;
+        Age = age;
+    }
+}

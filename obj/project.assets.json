@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rus_d\\OneDrive\\Desktop\\Coding\\Dotnet\\CSharp\\Quizzes\\Quizzes.csproj",
+      "projectUniqueName": "C:\\Users\\rus_d\\OneDrive\\Desktop\\Coding\\Dotnet\\CSharp\\Workbench\\Quizzes\\Quizzes.csproj",
       "projectName": "Quizzes",
-      "projectPath": "C:\\Users\\rus_d\\OneDrive\\Desktop\\Coding\\Dotnet\\CSharp\\Quizzes\\Quizzes.csproj",
+      "projectPath": "C:\\Users\\rus_d\\OneDrive\\Desktop\\Coding\\Dotnet\\CSharp\\Workbench\\Quizzes\\Quizzes.csproj",
       "packagesPath": "C:\\Users\\rus_d\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rus_d\\OneDrive\\Desktop\\Coding\\Dotnet\\CSharp\\Quizzes\\obj\\",
+      "outputPath": "C:\\Users\\rus_d\\OneDrive\\Desktop\\Coding\\Dotnet\\CSharp\\Workbench\\Quizzes\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rus_d\\AppData\\Roaming\\NuGet\\NuGet.Config",
